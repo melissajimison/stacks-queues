@@ -82,7 +82,7 @@ class WhateverHappens
       @currently_employed_array.push(new_emplyed)
     end
 
-    return @currently_employed_array, @people_waiting_for_a_job
+    return @people_working, @people_waiting_for_a_job
 
   end
 
